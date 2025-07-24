@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kurs Maturalny z Matematyki - Matma Się Liczy</title>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts - Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <style>
+        /* Custom styles to apply the Poppins font and define a color palette */
+        :root {
+            --bg-light: #f7f8fc;
+            --bg-dark-blue: #0f172a;
+            --primary-accent: #4f46e5;
+            --secondary-accent: #f59e0b;
+            --text-dark: #1e293b;
+            --text-light: #64748b;
+        }
+        html {
+            scroll-behavior: smooth;
+        }
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: var(--bg-light);
+            color: var(--text-dark);
+        }
+        /* Custom styles for headings */
+        h1, h2, h3, h4 {
+            font-weight: 700;
+        }
+        .gradient-text {
+            background: linear-gradient(90deg, var(--primary-accent), #a855f7);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .cta-button {
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 20px rgba(245, 158, 11, 0.4);
+        }
+        .cta-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 25px rgba(245, 158, 11, 0.6);
+        }
+        .testimonial-card {
+            transition: transform 0.3s ease;
+        }
+        .testimonial-card:hover {
+            transform: scale(1.03);
+        }
+    </style>
+</head>
+<body class="bg-slate-50">
+
+    <!-- Main Container -->
+    <div class="container mx-auto px-4">
+
+        <!-- Header Section -->
+        <header class="text-center py-16 md:py-24">
+            <h1 class="text-4xl md:text-6xl font-extrabold text-slate-800 mb-4 leading-tight">
+                Zdaj maturę z matematyki <br> na <span class="gradient-text">ponad 80%</span>
+            </h1>
+            <p class="text-lg text-slate-600 max-w-3xl mx-auto">
+                Wykonałem za Ciebie całą brudną robotę – przeanalizowałem setki zadań, wyłapałem schematy i stworzyłem kurs, który jest Twoją najprostszą drogą do wysokiego wyniku.
+            </p>
+        </header>
+
+        <!-- Analysis Section -->
+        <section class="mb-20">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div class="relative">
+                    <div class="absolute -top-4 -left-4 w-32 h-32 bg-indigo-200 rounded-full opacity-50 filter blur-xl"></div>
+                    <div class="absolute -bottom-4 -right-4 w-32 h-32 bg-purple-200 rounded-full opacity-50 filter blur-xl"></div>
+                    <img src="https://www.matmasieliczy.pl/wp-content/uploads/elementor/thumbs/LP_MP-min-scaled-1-qvu1bbj2y56jripff1zkkcl4d4n2zq9pgpvyypmlqg.jpg" alt="Materiały kursowe" class="rounded-2xl shadow-2xl w-full h-auto relative z-10">
+                </div>
+                 <div class="space-y-6">
+                    <div class="bg-white p-6 rounded-xl shadow-lg flex items-start space-x-4">
+                        <i class="fas fa-search-plus text-3xl text-indigo-500"></i>
+                        <div>
+                            <h3 class="font-bold text-lg">Analiza matur CKE</h3>
+                            <p class="text-slate-600">Przejrzałem wszystkie arkusze i wyłapałem powtarzające się schematy zadań.</p>
+                        </div>
+                    </div>
+                    <div class="bg-white p-6 rounded-xl shadow-lg flex items-start space-x-4">
+                        <i class="fas fa-book-open text-3xl text-indigo-500"></i>
+                        <div>
+                            <h3 class="font-bold text-lg">Najlepsze zbiory</h3>
+                            <p class="text-slate-600">Dobrałem zadania z najlepszych zbiorów, aby utrwalić każdy schemat.</p>
+                        </div>
+                    </div>
+                    <div class="bg-white p-6 rounded-xl shadow-lg flex items-start space-x-4">
+                        <i class="fas fa-sitemap text-3xl text-indigo-500"></i>
+                        <div>
+                            <h3 class="font-bold text-lg">Systematyzacja wiedzy</h3>
+                            <p class="text-slate-600">Wszystko poukładałem i dołączyłem niezbędną teorię na prostych przykładach.</p>
+                        </div>
+                    </div>
+                     <div class="bg-white p-6 rounded-xl shadow-lg flex items-start space-x-4">
+                        <i class="fas fa-sync-alt text-3xl text-indigo-500"></i>
+                        <div>
+                            <h3 class="font-bold text-lg">Zawsze aktualne</h3>
+                            <p class="text-slate-600">Kurs jest na bieżąco aktualizowany zgodnie z nowymi wymaganiami CKE.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Course Offer Section -->
+        <section id="kurs" class="mb-20">
+            <div class="bg-white p-8 md:p-12 rounded-3xl shadow-2xl grid lg:grid-cols-2 gap-12 items-center">
+                <div class="order-2 lg:order-1">
+                    <h2 class="text-3xl md:text-4xl font-bold text-slate-800 mb-6">KURS ONLINE PODSTAWA&gt;80</h2>
+                    <p class="text-slate-600 mb-6">Wszystko, czego potrzebujesz, aby zdać maturę z matematyki na wysoki wynik, zebrane w jednym miejscu. Ucz się we własnym tempie, kiedy chcesz i gdzie chcesz.</p>
+                    <ul class="space-y-4 text-slate-700 mb-8">
+                        <li class="flex items-center"><i class="fas fa-check-circle text-xl text-green-500 mr-3"></i>14 kompleksowych modułów tematycznych</li>
+                        <li class="flex items-center"><i class="fas fa-check-circle text-xl text-green-500 mr-3"></i>Setki zadań z rozwiązaniami wideo krok po kroku</li>
+                        <li class="flex items-center"><i class="fas fa-check-circle text-xl text-green-500 mr-3"></i>Dostęp do zamkniętej grupy i wsparcie autora</li>
+                        <li class="flex items-center"><i class="fas fa-check-circle text-xl text-green-500 mr-3"></i>Nowoczesna i intuicyjna platforma e-learningowa</li>
+                        <li class="flex items-center"><i class="fas fa-check-circle text-xl text-green-500 mr-3"></i>Minimatury i testy sprawdzające po każdym dziale</li>
+                    </ul>
+                </div>
+                <div class="order-1 lg:order-2">
+                    <img fetchpriority="high" src="https://www.matmasieliczy.pl/wp-content/uploads/2024/10/podstawa-80-mockup-1024x768.jpg" alt="Kurs Online Podstawa >80%" class="rounded-2xl shadow-lg w-full h-auto">
+                </div>
+            </div>
+        </section>
+
+        <!-- Bonuses Section -->
+        <section id="bonusy" class="mb-20">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-slate-800">Co więcej, w pakiecie otrzymujesz <span class="gradient-text">potężne bonusy</span>:</h2>
+            </div>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Bonus Card 1 -->
+                <div class="bg-white p-8 rounded-2xl shadow-lg text-center border-t-4 border-indigo-500">
+                    <img src="https://www.matmasieliczy.pl/wp-content/uploads/2024/10/pewniaki-2025-212x300.jpg" alt="Pewniaki 2025" class="mx-auto mb-4 h-52 object-contain">
+                    <h3 class="text-2xl font-bold text-slate-800 mb-2">PEWNIAKI 2025</h3>
+                    <p class="text-slate-600 mb-4">12 typów zadań, które muszą pojawić się na maturze. Z rozwiązaniami krok po kroku.</p>
+                    <div class="bg-indigo-100 text-indigo-800 font-bold py-1 px-3 rounded-full inline-block">Wartość: 99zł</div>
+                </div>
+                <!-- Bonus Card 2 -->
+                <div class="bg-white p-8 rounded-2xl shadow-lg text-center border-t-4 border-purple-500">
+                    <img src="https://www.matmasieliczy.pl/wp-content/uploads/2024/10/Schematy-zadan-zadania-min-212x300.jpg" alt="Schematy zadań" class="mx-auto mb-4 h-52 object-contain">
+                    <h3 class="text-2xl font-bold text-slate-800 mb-2">Ebook: Schematy Zadań</h3>
+                    <p class="text-slate-600 mb-4">Ebook z najpopularniejszymi zadaniami i ich rozwiązaniami krok po kroku.</p>
+                    <div class="bg-purple-100 text-purple-800 font-bold py-1 px-3 rounded-full inline-block">Wartość: 199zł</div>
+                </div>
+                <!-- Bonus Card 3 -->
+                <div class="bg-white p-8 rounded-2xl shadow-lg text-center border-t-4 border-amber-500">
+                    <img src="https://www.matmasieliczy.pl/wp-content/uploads/2024/10/7-metod-skutecznej-nauki-min-212x300.jpg" alt="Ebook o nauce" class="mx-auto mb-4 h-52 object-contain">
+                    <h3 class="text-2xl font-bold text-slate-800 mb-2">Ebook: 7 Metod Nauki</h3>
+                    <p class="text-slate-600 mb-4">Metody oparte na badaniach naukowych, by uczyć się szybciej i efektywniej.</p>
+                    <div class="bg-amber-100 text-amber-800 font-bold py-1 px-3 rounded-full inline-block">Wartość: 99zł</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pricing and CTA Section -->
+        <section id="cena" class="bg-gradient-to-br from-slate-800 to-slate-900 text-white p-8 md:p-12 rounded-3xl shadow-2xl my-20 text-center relative overflow-hidden">
+             <div class="absolute -top-20 -left-20 w-64 h-64 bg-indigo-500 rounded-full opacity-20 filter blur-3xl"></div>
+             <div class="absolute -bottom-20 -right-20 w-64 h-64 bg-purple-500 rounded-full opacity-20 filter blur-3xl"></div>
+            <div class="relative z-10">
+                <p class="text-xl text-slate-300 mb-2">Łączna wartość kursu i wszystkich bonusów:</p>
+                <p class="text-4xl md:text-5xl font-bold line-through text-slate-500 mb-6">1156 zł</p>
+                <p class="text-2xl md:text-3xl text-slate-200 mb-4">Twoja inwestycja w wysoki wynik dzisiaj (do 20:00):</p>
+                <p class="text-6xl md:text-7xl font-extrabold text-amber-400 mb-8">699 zł</p>
+
+                <!-- Countdown Timer -->
+                <div id="countdown" class="flex justify-center space-x-2 md:space-x-4 mb-8">
+                    <div class="bg-slate-700 p-3 rounded-lg w-24">
+                        <div id="hours" class="text-4xl font-bold">00</div>
+                        <div class="text-xs text-slate-400">GODZIN</div>
+                    </div>
+                    <div class="bg-slate-700 p-3 rounded-lg w-24">
+                        <div id="minutes" class="text-4xl font-bold">00</div>
+                        <div class="text-xs text-slate-400">MINUT</div>
+                    </div>
+                    <div class="bg-slate-700 p-3 rounded-lg w-24">
+                        <div id="seconds" class="text-4xl font-bold">00</div>
+                        <div class="text-xs text-slate-400">SEKUND</div>
+                    </div>
+                </div>
+
+                <a href="#" class="bg-amber-500 text-slate-900 font-bold py-4 px-12 rounded-full text-xl inline-block cta-button">
+                    Zaczynam naukę! <i class="fas fa-arrow-right ml-2"></i>
+                </a>
+                <p class="text-sm text-slate-400 mt-4">Gwarancja satysfakcji lub zwrot pieniędzy.</p>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section id="opinie" class="mb-20">
+            <h2 class="text-3xl md:text-4xl font-bold text-center text-slate-800 mb-12">Zaufali mi i zdali śpiewająco</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="testimonial-card"><img src="https://www.matmasieliczy.pl/wp-content/uploads/2024/10/1.1.1.png" alt="Opinia 1" class="rounded-xl shadow-lg w-full h-auto"></div>
+                <div class="testimonial-card"><img src="https://www.matmasieliczy.pl/wp-content/uploads/2024/10/2.2.2.jpg" alt="Opinia 2" class="rounded-xl shadow-lg w-full h-auto"></div>
+                <div class="testimonial-card"><img src="https://www.matmasieliczy.pl/wp-content/uploads/2024/10/3.3.3-1024x506.jpg" alt="Opinia 3" class="rounded-xl shadow-lg w-full h-auto"></div>
+                <div class="testimonial-card"><img src="https://www.matmasieliczy.pl/wp-content/uploads/2025/01/1.png" alt="Opinia 4" class="rounded-xl shadow-lg w-full h-auto"></div>
+                <div class="testimonial-card"><img src="https://www.matmasieliczy.pl/wp-content/uploads/2025/01/2.png" alt="Opinia 5" class="rounded-xl shadow-lg w-full h-auto"></div>
+                <div class="testimonial-card"><img src="https://www.matmasieliczy.pl/wp-content/uploads/2025/01/11-96-po-liveach.png" alt="Opinia 6" class="rounded-xl shadow-lg w-full h-auto"></div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section id="faq" class="mb-20">
+            <h2 class="text-3xl md:text-4xl font-bold text-center text-slate-800 mb-12">Masz pytania? <span class="gradient-text">Mam odpowiedzi.</span></h2>
+            <div class="space-y-4 max-w-3xl mx-auto">
+                <details class="bg-white p-6 rounded-xl shadow-md group" open>
+                    <summary class="font-bold text-lg text-slate-800 cursor-pointer list-none flex justify-between items-center">
+                        Czy kurs jest aktualny dla matury 2026 i później?
+                        <i class="fas fa-chevron-down transition-transform duration-300 group-open:rotate-180"></i>
+                    </summary>
+                    <p class="text-slate-600 mt-4">Tak. Kurs jest na bieżąco aktualizowany i wszelkie zmiany w wymaganiach maturalnych są natychmiast uwzględniane. Kupując raz, masz pewność dostępu do najnowszej wersji.</p>
+                </details>
+                <details class="bg-white p-6 rounded-xl shadow-md group">
+                    <summary class="font-bold text-lg text-slate-800 cursor-pointer list-none flex justify-between items-center">
+                        Jak długo mam dostęp do kursu?
+                        <i class="fas fa-chevron-down transition-transform duration-300 group-open:rotate-180"></i>
+                    </summary>
+                    <p class="text-slate-600 mt-4">Dostęp do kursu otrzymujesz na 365 dni. Możesz z niego korzystać 24/7. Istnieje możliwość przedłużenia dostępu na preferencyjnych warunkach.</p>
+                </details>
+                <details class="bg-white p-6 rounded-xl shadow-md group">
+                    <summary class="font-bold text-lg text-slate-800 cursor-pointer list-none flex justify-between items-center">
+                        Czy mogę uczyć się na telefonie?
+                        <i class="fas fa-chevron-down transition-transform duration-300 group-open:rotate-180"></i>
+                    </summary>
+                    <p class="text-slate-600 mt-4">Oczywiście! Platforma kursowa jest w pełni responsywna i działa na każdym urządzeniu: komputerze, laptopie, tablecie i telefonie.</p>
+                </details>
+                 <details class="bg-white p-6 rounded-xl shadow-md group">
+                    <summary class="font-bold text-lg text-slate-800 cursor-pointer list-none flex justify-between items-center">
+                        Czy jest możliwa płatność w ratach?
+                        <i class="fas fa-chevron-down transition-transform duration-300 group-open:rotate-180"></i>
+                    </summary>
+                    <p class="text-slate-600 mt-4">Tak, oferuję możliwość płatności w dwóch wygodnych ratach po 350 zł. Aby skorzystać z tej opcji, skontaktuj się ze mną na Instagramie: @matmasieliczy.</p>
+                </details>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="text-center py-10 border-t border-slate-200">
+            <div class="flex flex-col sm:flex-row justify-center items-center gap-4 sm:gap-8 mb-6">
+                <div class="flex items-center text-slate-600">
+                    <i class="fas fa-shield-alt mr-2 text-green-600"></i>
+                    <span>Bezpieczne połączenie SSL</span>
+                </div>
+                <div class="flex items-center text-slate-600">
+                    <i class="fas fa-lock mr-2 text-green-600"></i>
+                    <span>Zaufane płatności online</span>
+                </div>
+            </div>
+            <a href="https://www.matmasieliczy.pl/polityka-prywatnosci/" class="text-indigo-600 hover:underline">Polityka Prywatności</a>
+            <p class="text-slate-500 mt-4 text-sm">&copy; 2024 Matma Się Liczy. Wszelkie prawa zastrzeżone.</p>
+        </footer>
+
+    </div>
+
+    <!-- JavaScript for Countdown Timer -->
+    <script>
+        function startCountdown() {
+            const countdownElement = document.getElementById('countdown');
+            if (!countdownElement) return;
+
+            // Set the target time to 8 PM (20:00) today
+            const now = new Date();
+            const targetTime = new Date(now.getFullYear(), now.getMonth(), now.getDate(), 20, 0, 0);
+
+            // If it's already past 8 PM, set the target for tomorrow
+            if (now.getTime() > targetTime.getTime()) {
+                targetTime.setDate(targetTime.getDate() + 1);
+            }
+
+            const hoursEl = document.getElementById('hours');
+            const minutesEl = document.getElementById('minutes');
+            const secondsEl = document.getElementById('seconds');
+
+            function updateTimer() {
+                const currentTime = new Date();
+                const diff = targetTime - currentTime;
+
+                if (diff <= 0) {
+                    countdownElement.innerHTML = '<div class="text-2xl font-bold text-red-500">Oferta specjalna zakończona!</div>';
+                    if(interval) clearInterval(interval);
+                    return;
+                }
+
+                const h = Math.floor(diff / 1000 / 60 / 60);
+                const m = Math.floor(diff / 1000 / 60) % 60;
+                const s = Math.floor(diff / 1000) % 60;
+
+                if(hoursEl) hoursEl.innerText = h.toString().padStart(2, '0');
+                if(minutesEl) minutesEl.innerText = m.toString().padStart(2, '0');
+                if(secondsEl) secondsEl.innerText = s.toString().padStart(2, '0');
+            }
+
+            const interval = setInterval(updateTimer, 1000);
+            updateTimer(); // Initial call
+        }
+
+        document.addEventListener('DOMContentLoaded', startCountdown);
+    </script>
+</body>
+</html>
